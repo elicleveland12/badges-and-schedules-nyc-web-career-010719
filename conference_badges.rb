@@ -16,7 +16,7 @@ def assign_rooms(array)
     
   room_welcome = []
   array.each do |n|
-    room_welcome << "Hello, #{n}! You'll be assigned to room "
+    room_welcome << "Hello, #{n}! You'll be assigned to room #{m}"
   end 
   room_welcome
 end
