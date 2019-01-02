@@ -12,13 +12,11 @@ end
 
 def assign_rooms(array)
   room_number = []
-  array.each do |m|
-    room_number << array.each_with_index {
-      |item, index| 
-      array[item] = index 
-    }
-    room_number
-  end 
+  counter = 0 
+  while array.size > 0 
+    counter += 1
+    array.pop
+    room_number << counter
   room_welcome = []
   array.each do |n|
     room_welcome << "Hello, #{n}! You'll be assigned to room #{m}"
