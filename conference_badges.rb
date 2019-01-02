@@ -15,7 +15,9 @@ def assign_rooms(array)
   array.each do |m|
     room_number << array.each_with_index {
       |item, index| 
+      array[item] = index 
     }
+    room_number
   end 
   room_welcome = []
   array.each do |n|
