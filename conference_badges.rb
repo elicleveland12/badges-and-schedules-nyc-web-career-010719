@@ -17,6 +17,7 @@ def assign_rooms(array)
     counter += 1
     array.pop
     room_number << counter
+  end 
   room_welcome = []
   array.each do |n|
     room_welcome << "Hello, #{n}! You'll be assigned to room #{counter}"
