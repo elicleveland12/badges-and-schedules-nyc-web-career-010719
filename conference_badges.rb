@@ -13,7 +13,7 @@ end
 def assign_rooms(array)
   room_number = []
   array.each do |m|
-    room_number << 
+    room_number << array.each_with_index
   end 
   room_welcome = []
   array.each do |n|
