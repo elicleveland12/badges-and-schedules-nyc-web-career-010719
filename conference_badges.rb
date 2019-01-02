@@ -15,9 +15,10 @@ def assign_rooms(array)
   array.each do |m|
     room_number << array.each_with_index
   end 
-  room_welcome = []
-  array.each do |n|
-    room_welcome << "Hello, #{n}! You'll be assigned to room #{m}"
-  end 
-  room_welcome
+#  room_welcome = []
+#  array.each do |n|
+#    room_welcome << "Hello, #{n}! You'll be assigned to room #{m}"
+#  end 
+#  room_welcome
+    room_number
 end
