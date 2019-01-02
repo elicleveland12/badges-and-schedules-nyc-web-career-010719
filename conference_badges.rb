@@ -19,4 +19,5 @@ def assign_rooms(array)
   puts array 
   array.each do |n|
     room_welcome << "Hello, #{n}! You'll be assigned to room "
+  end 
 end
